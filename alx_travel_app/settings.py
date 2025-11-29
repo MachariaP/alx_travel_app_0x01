@@ -53,7 +53,17 @@ INSTALLED_APPS = [
 
     # Local
     'listings',
+    'bookings',
 ]
+
+# Optional: Nice Swagger UI
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINATIONS': {
+        'Basic': {
+            'type': 'basic'
+        }
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
