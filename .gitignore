@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Django
+*.sqlite3
+*.sqlite3-journal
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+*.log
+local/
+
+# Virtual Environment
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Migrations (optional - remove if you want to track them)
+# */migrations/*
+
+# Environment variables
+.env
+.env.local
+
+# Compiled files
+*.mo
+*.pot
+
+# Django stuff
+/static/
+media/
+
+# If using Celery
+celerybeat.pid
+celeryd.pid
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# End of file
